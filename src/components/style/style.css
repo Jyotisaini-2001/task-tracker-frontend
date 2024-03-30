@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  background: linear-gradient(to right, #f5d5d5, #f6e6e6 10%, #f0f0f0 50%, #dbf1f9); /* Pink to Light Gray to Sky Blue gradient */
+
+}
+.user{
+  /* margin-right: 8rem; */
+  width: 50px;
+  border-radius: 50%;
+  
+  background-color: white;
+padding: 8px;
+}
+
+
+.box{
+ 
+  border: 3px solid white;
+  border-radius: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  /* padding: 2rem;  */
+}
+
+.card-header{
+  font-size: larger;
+  font-weight: bold;
+}
+.card-header.bg-lightgray {
+  background-color: rgb(167, 164, 164);
+  color: white;
+}
+
+.card-header.bg-orange {
+  background-color: rgb(244, 168, 28);
+  color: white;
+}
+
+.card-header.bg-lightgreen {
+  background-color: rgb(94, 241, 94);
+  color: white;
+}
+
+.card-header.bg-purple {
+  background-color: rgb(194, 12, 194);
+  color: white;
+}
+
+.card-header.bg-peach {
+  background-color: #FFB6C1;
+  color: white;
+}
+.filter-label,.sort-label {
+  /* margin-right: 7px; */
+  /* padding: auto; */
+  font-size: 1.2rem;
+}
+
+
+.sort-section {
+  display: flex;
+  align-items: center;
+}
+
+.sort-label {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .filter-section  {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+  }
+  .filter-label{
+    margin-right: 15px;
+  }
+  .sort-label{
+    margin-right: 20px;
+  }
+  .dynamic-width{
+    max-width: 100px;
+  }
+
+ 
+}
+@media (max-width: 991px) {
+  .card-scroll {
+    overflow-x: auto;
+  }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+  .box {
+    padding: 1.7rem;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important; /* Adjust margin for right side */
+  }
+}
+@media (min-width: 1025px) {
+  .box {
+    padding: 1.7rem;
+    margin-left: 6rem !important;
+    margin-right: 6rem !important; /* Adjust margin for right side */
+  }
+}
+@media (max-width: 767px) {
+  .box {
+    margin-left: 20px !important;
+    margin-right: 20px !important; /* Adjust margin for right side */
+  }
+}
+@media (max-width: 780px) {
+  .filter-section .add-button1 {
+   display:none !important;
+  }
+
+   .add-button2 .btn {
+   width: 100%;
+   }
+}
+@media (min-width: 781px) {
+   .add-button2 {
+   display:none !important;
+  }
+}

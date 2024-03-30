@@ -1,0 +1,70 @@
+.vertical-dots {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .vertical-dots span {
+    display: block;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+ .options {
+  margin-right: 2rem;
+    position: absolute;
+    top: 100%;
+    background-color: #aca9a9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .options p {
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+  }
+  
+ .card-inner hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 2px solid #949393; 
+  }
+ .card.card-inner  {
+    background-color: #d1d1d1; 
+    border-radius: 5px;
+   
+    font-family: Arial, sans-serif; 
+  }
+
+  .card-body{
+    min-height: 20rem;
+  }
+  .card-innner .card-title {
+    font-size: 1.2rem; 
+  }
+  
+  .card-innner .card-text {
+    font-size: 0.8rem; 
+  }
+ .assignee-name  {
+    color: #343a40; 
+    font-size: 1.2rem; 
+  }
+  
+  .card-inner button{
+    background-color: hsla(211, 85%, 21%, 0.895); 
+    color: #fff; 
+    border-color: hsl(211, 91%, 23%); 
+  }
+  
+
+  
+  .badge-primary {
+    color: white;
+    background-color: hsla(211, 85%, 21%, 0.895); 
+  }
